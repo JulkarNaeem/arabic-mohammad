@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: oldlace;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 65px;
+    margin-bottom: -15px;
+    padding: 10px;
+}
+span{
+    color: #fbc531;
+}
+.banner{
+    display: flex;
+}
+.banner img{
+    max-width: 80%;
+    padding-left: 100px;
+    margin-top: 50px;
+
+}
+.banner-text{
+    min-width: 60%;
+    text-align: center;
+}
+.banner-text ul{
+    display: inline-flex;
+    list-style: square;
+}
+.banner-text ul li{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hireme{
+    text-decoration: none;
+    background-image: linear-gradient( #55e612, #a8e063);
+    padding: 10px 40px;
+    color: white; 
+    border-radius: 10px; 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-sec{
+    display: flex;
+    margin-top: 50px;
+}
+.about-txt{
+    min-width: 30%;
+    max-width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+.about-sec img{
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.about-txt h2{
+    text-align: center;
+}
+.about-txt p{
+    text-align: justify;
+    font-size: 20px;
+}
+.about-txt h3{
+    text-align: center;
+    font-size: 30px;
+}
+.about-txt li{
+    list-style: none;
+    text-align: center;
+    margin: 0px 10px;
+}
+.about-txt li main{
+    text-align: center;
+}
+.about-txt li img{
+    width: 50px;
+}
+.about-txt ul{
+    margin-top: -40px;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
