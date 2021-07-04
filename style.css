@@ -16,16 +16,20 @@ span{
 }
 .banner{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .banner img{
-    max-width: 80%;
-    padding-left: 100px;
-    margin-top: 50px;
-
+    min-width: 30%;
+    max-height: 600px;
+    margin-top: 30px;
 }
 .banner-text{
-    min-width: 60%;
+    margin-top: -70px;
     text-align: center;
+    flex-grow: 2;
+
 }
 .banner-text ul{
     display: inline-flex;
@@ -49,17 +53,18 @@ span{
 .about-sec{
     display: flex;
     margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .about-txt{
     min-width: 30%;
     max-width: 60%;
-    padding: 20px;
     text-align: center;
+    flex-grow: 2;
 }
 .about-sec img{
-    width: 100%;
-    padding-left: 30px;
-    margin-top: 50px;
+    min-width: 20%;
 }
 .about-txt h2{
     text-align: center;
@@ -84,7 +89,6 @@ span{
     width: 50px;
 }
 .about-txt ul{
-    margin-top: -40px;
     display: inline-flex;
     flex-wrap: wrap;
 
