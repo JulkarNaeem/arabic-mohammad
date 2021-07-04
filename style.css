@@ -64,6 +64,8 @@ span{
     flex-grow: 2;
 }
 .about-sec img{
+    max-height: 600px;
+
     min-width: 20%;
 }
 .about-txt h2{
@@ -91,5 +93,6 @@ span{
 .about-txt ul{
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
